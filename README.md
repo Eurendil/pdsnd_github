@@ -1,15 +1,20 @@
 ### Date created
-Include the date you created this project and README file.
+07.02.2020
 
 ### Project Title
-Replace the Project Title
+US BikeShare Data
 
 ### Description
-Describe what your project is about and what it does
+Learn about bike share usage in Chicago, New York City, and Washington by using descriptive statistics.
 
 ### Files used
-Include the files used
+bikeshare2.py 
+new_york_city.csv 
+washington.csv 
+chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Python Standard Library: https://docs.python.org/3/library/ Pandas Library User Guide: https://pandas.pydata.org/docs/user_guide/index.html Numpy Library Documentation: https://numpy.org/doc/
 
+### Project Contributor
+Omer Faruk Aykut
