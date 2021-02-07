@@ -18,20 +18,20 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    city = input("Please insert city name: ").lower()
+    city = input("Please write down city name: ").lower()
 
     if city not in ['chicago', 'new york city', 'washington']:
-        city = input("Please insert correct city name: ").lower()
+        city = input("Please write down correct city name: ").lower()
 
     # get user input for month (all, january, february, ... , june)
 
-    month = input("İnsert month name: ").lower()
+    month = input("Write down month name: ").lower()
     if month not in ['january', 'february', 'march', 'april', 'may', 'june']:
         month = input("Write the month name correctly please: ").lower()
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input("İnsert days of week you wanted: ").lower()
+    day = input("Write down days of week you wanted: ").lower()
     if day not in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']:
-        day = input("Write the day name correctly please: ").lower()
+        day = input("Write down the day name correctly please: ").lower()
     print('-' * 40)
     return city, month, day
 
@@ -173,7 +173,7 @@ def moredata(df):
             if repeat=='yes':
                 raw_data += 5
                 print(df.iloc[raw_data: raw_data + 5])
-                repeat = input("Do you want to see more, writeyes or no").lower()
+                repeat = input("Do you want to see more, write yes or no").lower()
                 if repeat == 'no':
                     break
         if answer == 'no':
